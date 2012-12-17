@@ -1,0 +1,50 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require jquery.Jcrop
+ *= require bootstrap_and_overrides
+ *= require_self
+ *= require_tree .
+ */
+
+body {
+	margin-top: 60px;
+ }
+
+h1 {
+font-size: 50px;
+}
+
+.table td  {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+line-height: 24px;
+color: #334455;
+}
+
+.table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th {
+background-color: #bbccdd;
+}
+
+.table td {
+padding: 8px;
+line-height: 24px;
+text-align: left;
+
+}
+
+a {
+float: left;
+display: block;
+padding: 8px 20px 8px;
+font-size: 16px;
+color: #CCC;
+text-shadow: 0 1px 0 #345;
+}
